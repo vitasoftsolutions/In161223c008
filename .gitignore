@@ -1,0 +1,48 @@
+
+# For work update
+*.sh
+/work_reports
+temp_report.txt
+
+# Dependency directories
+/node_modules
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+/build
+
+# Coverage reports
+/coverage
+
+# Editor-specific files
+.vscode
+.idea
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Cache and logs
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Optional: Uncomment the following if you're using TypeScript
+# TypeScript build output
+# /tsconfig.tsbuildinfo
+
+# Optional: Uncomment the following if you're using ESLint
+# ESLint cache
+# /.eslintcache
+
+# Optional: Uncomment the following if you're using Prettier
+# Prettier cache
+# /.prettiercache

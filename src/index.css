@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+  background: #F2F6F9;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/*  */
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Set your desired scrollbar color here */
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9; /* Set a different color for hover state if desired */
+}
+
+.hover-container .child-div {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s, max-height 0.3s;
+}
+.hover-container:hover .child-div {
+  opacity: 1;
+  max-height: 100px; /* Adjust the value as needed */
+  transition: opacity 0.3s, max-height 0.3s;
+  padding: 8px 0;
+}
+
+/*  */
+.min-h-50vh{
+  min-height: 50vh !important;
+}
