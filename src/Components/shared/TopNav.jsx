@@ -9,8 +9,9 @@ function TopNav() {
   };
 
   return (
-    <div className="navbar h-10 shadow-md shadow-blue-200">
-      <div className="flex-1 h-10">
+    <div className="navbar h-10 shadow-sm shadow-erp_shadow bg-erp_top_menu relative">
+      <div className="bg-erp_menu w-60 absolute z-1 -ml-2 h-16"></div>
+      <div className="flex-1 h-10 z-20">
         <Link to={"/"} className="text-success mx-6 text-xl font-bold">
           E R P
         </Link>

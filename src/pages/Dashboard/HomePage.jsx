@@ -117,7 +117,7 @@ function HomePage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div
-            className="md:col-span-1 shadow-xl shadow-blue-200 p-5"
+            className="md:col-span-1 shadow-xl shadow-erp_shadow p-5"
             style={{ height: "380px", width: "100%" }}
           >
             <h2 className="text-xl font-semibold text-center text-black border-b-2">
@@ -134,7 +134,7 @@ function HomePage() {
                 return (
                   <div
                     key={index}
-                    className="shadow-lg shadow-blue-200 col-span-2 p-4"
+                    className="shadow-lg shadow-erp_shadow col-span-2 p-4"
                   >
                     <div className="flex justify-center">
                       <div className="bg-blue-200 bg-opacity-60 text-blue-500 w-fit items-center rounded-full p-3">
@@ -159,7 +159,7 @@ function HomePage() {
             </div>
           </div>
           <div
-            className="md:col-span-2 shadow-xl shadow-blue-200 pb-8 pr-5"
+            className="md:col-span-2 shadow-xl shadow-erp_shadow pb-8 pr-5"
             style={{ height: "380px", width: "100%" }}
           >
             <MyBarChart />

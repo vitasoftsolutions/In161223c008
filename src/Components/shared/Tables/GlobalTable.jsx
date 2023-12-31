@@ -40,7 +40,7 @@ const GlobalTable = ({
   };
 
   return (
-    <div className="container mx-auto border-2 bg-white mt-5 border-gray-50 overflow-hidden shadow-md shadow-blue-200">
+    <div className="container mx-auto border-2 bg-white mt-5 border-gray-50 overflow-hidden shadow-md shadow-erp_shadow">
       <div className="overflow-x-auto flex flex-col min-h-[60vh]">
         {/*  */}
         <table className="table table-xs table_border table-compact w-full">

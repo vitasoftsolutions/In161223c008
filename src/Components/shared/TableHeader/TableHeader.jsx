@@ -157,13 +157,13 @@ function TableHeader({
           <h1 className="text-2xl font-bold">{title}</h1>
           <Link
             to={redirectLink}
-            className="text-2xl font-bold p-1 text-erp_light rounded-full shadow-blue-200 shadow-md hover:shadow-none hover:bg-erp_blue duration-300 bg-erp_primary"
+            className="text-2xl font-bold p-1 text-erp_light rounded-full shadow-erp_shadow shadow-md hover:shadow-none hover:bg-erp_blue duration-300 bg-erp_primary"
           >
             <AiOutlinePlus />
           </Link>
         </div>
         <div className="flex items-center ml-5 gap-2 w-full">
-          <div className="bg-white shadow-md shadow-blue-200">
+          <div className="bg-white shadow-md shadow-erp_shadow">
             <div className="dropdown dropdown-start">
               <label
                 tabIndex={0}
@@ -244,13 +244,13 @@ function TableHeader({
           {/* Import Button */}
           <button
             onClick={() => setImportModal("loan")}
-            className="cursor-pointer bg-erp_primary shadow-lg shadow-blue-200 hover:bg-blue-600 text-white py-2 px-4 rounded-md flex items-center"
+            className="cursor-pointer bg-erp_primary shadow-lg shadow-erp_shadow hover:bg-blue-600 text-white py-2 px-4 rounded-md flex items-center"
           >
             <FaFileImport className="mr-2" /> Import
           </button>
           {/* Export Button */}
           <button
-            className="bg-green-500 shadow-lg shadow-blue-200 hover:bg-green-600 text-white py-2 px-4 rounded-md flex items-center"
+            className="bg-green-500 shadow-lg shadow-erp_shadow hover:bg-green-600 text-white py-2 px-4 rounded-md flex items-center"
             onClick={downloadCsv}
           >
             <FaFileExport className="mr-2" /> Export

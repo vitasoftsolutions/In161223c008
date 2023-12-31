@@ -25,7 +25,7 @@ function DisplayProjects({
   }
 
   return (
-    <div className="container border-2 bg-white mt-5 border-gray-50 overflow-hidden shadow-md shadow-blue-200">
+    <div className="container border-2 bg-white mt-5 border-gray-50 overflow-hidden shadow-md shadow-erp_shadow">
       <div className="min-h-[60vh] grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-2 gap-3">
         {/* Content */}
         {allDataList?.map((dt) => {
